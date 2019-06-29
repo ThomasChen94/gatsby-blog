@@ -95,3 +95,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+=======
+# gatsby-blog
+Learn gatsby via building a blog. The tutorial url is: https://www.youtube.com/watch?v=8t0vNu2fCCM&amp;t=9313s
