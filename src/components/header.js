@@ -18,11 +18,6 @@ const Header = () => {
     <div>
       <ReactNavbar />
       <header className={headerStyles.header}>
-        <h1>
-          <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/">
-            {data.site.siteMetadata.title}
-          </Link>
-        </h1>
       </header>
     </div>
   )
