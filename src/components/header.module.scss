@@ -9,24 +9,7 @@
   text-decoration: none;
 }
 
-.nav-list {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-.nav-item {
-  color: #999999;
-  font-size: 0.9rem;
-  margin-right: 1.3rem;
+.title:hover {
+  color: #666666;
   text-decoration: none;
-} 
-
-
-.nav-item:hover {
-  color: #666666
-}
-
-.active-nav-item {
-  color: #333333
 }

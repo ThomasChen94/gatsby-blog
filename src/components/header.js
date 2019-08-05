@@ -19,7 +19,7 @@ const Header = () => {
       <ReactNavbar />
       <header className={headerStyles.header}>
         <h1>
-          <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/">
+          <Link className={headerStyles.title} to="/">
             {data.site.siteMetadata.title}
           </Link>
         </h1>
