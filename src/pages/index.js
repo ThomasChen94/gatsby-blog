@@ -1,15 +1,30 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import indexStyles from './index.module.scss'
 
 const IndexPage = () => {
+  const title = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
     	<Head title="Home"/>
-      <strong>My experience</strong>
-      <p> Need a developer? <Link to='/contact'>Contact me</Link></p>
+      <div className={indexStyles.pageContainer}>
+      	<div className={indexStyles.bgContainer}>
+      		<div className={indexStyles.bgImage} />
+      		<div className={indexStyles.title}>  {title.site.siteMetadata.title} </div>
+      	</div>
+      </div>
     </Layout>
   )
 }

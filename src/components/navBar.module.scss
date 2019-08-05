@@ -1,34 +1,33 @@
 .nav-bar {
 	max-width: 100%;
-	background-color: #e3f2fd;
-  margin: 20px;
+	background-color: #ffffff;
+  margin: 0rem;
 }
 
 .nav-list {
-  display: flex;
+  max-width: 90%;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #eee;
 }
 
-.nav-item {
+.nav-item-right {
   color: #999999;
-  padding: 1.2rem 1.1rem;
+  padding: 1.3rem 0.9rem;
   text-decoration: none;
   text-align: center;
-  float: left;
-  font-size: 1.3rem;
+  float: right;
+  font-size: 1rem;
 } 
 
 
-.nav-item:hover {
+.nav-item-right:hover {
   color: #666666;
   background-color: #ddd;
   text-decoration: none;
 }
 
-.active-nav-item {
+.active-nav-item-right {
   color: #333333;
   background-color: #ccc;
 }

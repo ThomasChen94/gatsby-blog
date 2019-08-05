@@ -1,0 +1,27 @@
+.bg-image {
+  background-image: url("../images/blog-back.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.home-page-block-list {
+	list-style: none;
+}
+
+.title {
+  color: #e9ecef;
+  font-size: 2.2rem;
+  font-family: Brush Script MT,cursive; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-container {
+  position: relative;
+  text-align: center;
+}

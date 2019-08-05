@@ -14,23 +14,23 @@ export default class ReactNavbar extends React.Component {
       <nav className={navBarStyles.navBar}>
         <ul className={navBarStyles.navList}>
           <li>
-            <Link className={navBarStyles.navItem} 
-                activeClassName={navBarStyles.activeNavItem} to="/"> Home 
+            <Link className={navBarStyles.navItemRight} 
+            activeClassName={navBarStyles.activeNavItem} to="contact"> Contact
             </Link>
           </li>
           <li>
-            <Link className={navBarStyles.navItem} 
-                activeClassName={navBarStyles.activeNavItem} to="/about"> About
-            </Link>
-          </li>
-          <li>
-            <Link className={navBarStyles.navItem} 
+            <Link className={navBarStyles.navItemRight} 
                 activeClassName={navBarStyles.activeNavItem} to="/blog"> Blogs
             </Link>
           </li>
           <li>
-            <Link className={navBarStyles.navItem} 
-            activeClassName={navBarStyles.activeNavItem} to="contact"> Contact
+            <Link className={navBarStyles.navItemRight} 
+                activeClassName={navBarStyles.activeNavItem} to="/about"> About
+            </Link>
+          </li>
+          <li>
+            <Link className={navBarStyles.navItemRight} 
+                activeClassName={navBarStyles.activeNavItem} to="/"> Home 
             </Link>
           </li>
         </ul>
