@@ -25,6 +25,11 @@ const IndexPage = () => {
       		<div className={indexStyles.title}>  {title.site.siteMetadata.title} </div>
       	</div>
       </div>
+
+      <div>
+        <h2>Chen Qian</h2>
+        
+      </div>
     </Layout>
   )
 }
