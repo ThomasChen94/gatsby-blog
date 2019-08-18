@@ -3,7 +3,6 @@ import React from "react"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'gatsby';
-import { Navbar, Nav, Form, Button, FormControl } from 'react-bootstrap';
 import navBarStyles from './navBar.module.scss'
 
 

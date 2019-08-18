@@ -10,7 +10,7 @@ const Head = ({ title }) => {
 					title
 				}
 			}
-		}
+		}	
 	`)
 	return (
 		<Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
